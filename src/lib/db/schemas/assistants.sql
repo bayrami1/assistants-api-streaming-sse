@@ -1,0 +1,7 @@
+CREATE TABLE assistants (
+    id SERIAL PRIMARY KEY,
+    assistant_id VARCHAR(255) UNIQUE NOT NULL,
+    user_id INT REFERENCES users(id),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

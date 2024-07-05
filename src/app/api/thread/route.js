@@ -1,4 +1,4 @@
-import openai from '@/service/openai'
+import openai from '@/app/api/services/openai';
 
 export async function POST(request) {
 

@@ -1,4 +1,4 @@
-import openai from '@/service/openai';
+import openai from '@/app/api/services/openai';
 
 // Function to create headers for OpenAI API requests
 function createOpenAIHeaders() {

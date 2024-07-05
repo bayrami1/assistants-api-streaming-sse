@@ -1,0 +1,1 @@
+# This script can be used to apply your SQL migrations to your PostgreSQL database setup in Docker. It might use command-line tools like psql to run the migration files against your PostgreSQL instance.
